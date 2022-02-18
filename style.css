@@ -28,8 +28,8 @@ ul {
     list-style-type: none;
 }
 
-li::before {
-    content: "- ";
+li {
+    padding-bottom: 10px;
 }
 
 @media (prefers-color-scheme: dark) {
